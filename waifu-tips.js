@@ -86,8 +86,8 @@ const live2d_models = [
         version: 3
     },
     {
-        name: 'arch',
-        message: 'Arch linux chan',
+        name: 'RICO3',
+        message: 'rico',
         version: 3
     },
     {
