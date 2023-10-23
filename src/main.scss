@@ -73,3 +73,25 @@ $info: #050593;
       // line-height: 1px;
     }
   }
+
+  @font-face {
+    font-family:"slkcrb";
+    src: url("../silkscreen/slkscre.ttf") format("truetype");
+  }
+
+  #retro{
+    font-family: "slkcrb", sans-serif;
+    letter-spacing: -1px;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.center-image-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 150px;
+}
