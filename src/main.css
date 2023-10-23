@@ -12799,13 +12799,33 @@ textarea.form-control-lg {
     font-size: 13px;
     padding-left: 25%;
   }
+  #retroj1 {
+    font-family: "jp", sans-serif;
+    font-size: 13px;
+    padding-top: 50%;
+  }
+  #retroj2 {
+    font-family: "jp", sans-serif;
+    letter-spacing: -1px;
+    font-size: 13px;
+    padding-left: 25%;
+  }
 }
 @font-face {
   font-family: "slkcrb";
   src: url("../silkscreen/slkscre.ttf") format("truetype");
 }
+@font-face {
+  font-family: "jp";
+  src: url("../NineteenNinetyThree-L1Ay.ttf") format("truetype");
+}
 #retro {
   font-family: "slkcrb", sans-serif;
+  letter-spacing: -1px;
+}
+
+#retroj {
+  font-family: "jp", sans-serif;
   letter-spacing: -1px;
 }
 
@@ -12819,6 +12839,16 @@ textarea.form-control-lg {
     font-family: "slkcrb", sans-serif;
     letter-spacing: -1px;
     padding-left: 160px;
+  }
+  #retroj1 {
+    font-family: "jp", sans-serif;
+    letter-spacing: -1px;
+    padding-top: 15%; /* For screens > 810px */
+  }
+  #retroj2 {
+    font-family: "jp", sans-serif;
+    letter-spacing: -1px;
+    padding-left: 100px;
   }
 }
 * {
@@ -12843,7 +12873,7 @@ textarea.form-control-lg {
   width: 10px;
   height: 80%;
   background-color: white;
-  right: 10px;
+  right: 10%;
   top: 10%;
   animation-name: blink;
   animation-duration: 1500ms;
