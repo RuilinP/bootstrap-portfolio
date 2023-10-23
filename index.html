@@ -18,7 +18,7 @@
     <!-- Navbar content -->
     <div class="container-fluid">
     <a href="#" class="navbar-brand mb-0 h1">
-      <h1 class="text-primary fw-bold ms-4" id="retro">RuilinP</h1>
+      <h1 class="text-white fw-bold ms-4" id="retro">Ruilin<span class="text-primary fw-bold ms-0 h1" id="retro">P</span></h1>
     </a>
     <button 
         type="button"
@@ -35,9 +35,9 @@
 
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav me-auto">
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a href="#" class="nav-link text-white fw-bold ms-4" id="retro" >Home</a>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a href="#about" class="nav-link text-white fw-bold ms-4" id="retro">About me</a>
           </li>
@@ -50,7 +50,7 @@
           </ul>
           
           
-            <a class="btn btn-primary text-white fw-bold btn-sm ms-3 me-5" href="#" role="button" id="retro">日本語(間もなく来る)</a>
+            <a class="btn btn-primary text-white fw-bold btn-sm ms-3 me-4" href="#" role="button" id="retro">日本語(間もなく来る)</a>
             
           
             
@@ -59,19 +59,32 @@
     </div>
   </nav>
   </header>
-  <div class="container" style="background-image: url(archchan.png);width: 100%;
-  height: 700px;
-  background-size: cover;">
+  <div class=" ms-0 me-0" style="height: 100vh;
+  width: 100%;
+  background-image: url(archchan.png);
+  background-size: cover;
+  background-position: center;">
 <!-- <img class="bg-img" style="width: 100%;" src="archchan.png" alt="..."> -->
-<div class="inner-container" style="width: 50%; height: 30%; padding-top: 300px;">
-	<h4 class="text-white ps-5 fw-bold" id="retro">Hello, my name is</h4>
-	<h2 class="text-primary fw-bold" style="padding-left: 180px;" id="retro">Ruilin Peng</h2>
-	
+<div class="inner-container ms-5" style="width: 50%; height: 30%; padding-top: 400px;">
+  <div style="height: 20vh;
+  width: 65%;
+  background-image: url(img/terminal1.png);
+  background-size: cover;
+  border: 2px solid #1793d1;">
+	<h4 class="text-white ps-3 fw-bold" id="retro1">Hello, my name is</h4>
+	<h2 class="text-primary fw-bold" id="retro2">Ruilin Peng</h2>
+	</div>
 	</div>
 	
   </div>
-<div class="container">
-  <pre><output id="arch">[ruilin@archlinux blog]$ neofetch 
+<div class="container mt-5" style="height: 150vh;
+display: flex;
+justify-content: center;
+
+background-image: url(img/monitor.png);
+background-size: cover;
+background-position: center;">>
+  <pre><output id="arch" style="margin-top: 40%;">[ruilin@archlinux blog]$ neofetch 
                    -`                    ruilin@archlinux 
                   .o+`                   ---------------- 
                  `ooo/                   OS: Arch Linux x86_64 
@@ -92,7 +105,7 @@
  `++:.                           `-/+/
  .`                                 `/  
     
- [ruilin@archlinux blog]$ ls -G posts
+ 
 </output></pre>
 </div>
 
@@ -102,7 +115,7 @@
       <img src="../ruilin.png" alt="" style="width: 100%;"/>
         </div>
     <div class="col">
-  <h3 class="text-white fw-bold ms-4 " id="retro" >About me</h3>
+  <h3 class="text-success fw-bold ms-4 " id="retro" >About me</h3>
   <p class="text-white fw-bold ms-4 mt-4" id="retro" >I am a 4th year Statistical Science Major & Computer
     Science minor & Mathematics Minor Student at University of toronto. On daily basis, i got 2 laptops
   running<span class="text-primary fw-bold " id="retro"> arch linux</span> and play some mobile games such as
@@ -112,9 +125,9 @@ have to do.</p>
     </div>
 </div>
 
-<div class="container mt-5 mb-5 bg-black" id="skills">
-  <h3 class="text-white fw-bold ms-4" id="retro" >My skills</h3>
-  <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
+<div class="ms-5 me-5 mt-5 mb-5 bg-black align-items-center" id="skills">
+  <h3 class="text-primary fw-bold ms-4" id="retro" >My skills</h3>
+  <div class="row row-cols-1 row-cols-md-4 g-4 mt-4">
     <div class="col">
       <div class="card h-100 bg-white">
         <div class="center-image-container mt-4">
@@ -155,26 +168,7 @@ have to do.</p>
         </div>
       </div>
     </div>
-    <div class="col">
-      <div class="card h-100 bg-white">
-        <div class="center-image-container mt-4">
-          <img src="../img/R.png" alt="..." style="width: 50%;">
-          </div>
-        <div class="card-body">
-          <h5 class="card-title fw-bold text-center text-dark" id="retro">R</h5>
-          <p class="card-text text-center" id="retro">  STA237/238/302/303/304/314</p>
-          
-          <ul class="list-group">
-              <li class="list-group-item border-0 bg-white text-center" id="retro"><a href="petdetail.html" class="btn btn-dark">Learn more</a>
-                  </li>
-                  
-            </ul>
-        </div>
-        <div class="card-footer bg-info">
-          <small class="text-white" id="retro">Last updated Oct 2023</small>
-        </div>
-      </div>
-    </div>
+    
   
     <div class="col">
       <div class="card h-100 bg-white">
@@ -200,14 +194,98 @@ have to do.</p>
     <div class="col">
       <div class="card h-100 bg-white">
         <div class="center-image-container mt-4">
-          <img src="../img/html.png" alt="..." style="width: 50%;">
+          <img src="../img/Cs.png" alt="..." style="width: 50%;">
           </div>
         <div class="card-body">
-          <h5 class="card-title fw-bold text-center text-dark" id="retro">HTML/CSS/Bootstrap</h5>
+          <h5 class="card-title fw-bold text-center text-dark" id="retro">C#</h5>
+          <p class="card-text text-center" id="retro">    non uoft        </p>
+          
+          <ul class="list-group">
+              <li class="list-group-item border-0 bg-white text-center" id="retro"><a href="#" class="btn btn-dark">Learn more</a>
+                  </li>
+                  
+            </ul>
+        </div>
+        <div class="card-footer bg-info">
+          <small class="text-white" id="retro">Last updated Oct 2023</small>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100 bg-white">
+        <div class="center-image-container mt-4">
+          <img src="img/html.jpg" alt="..." style="width: 50%;">
+          </div>
+        <div class="card-body">
+          <h5 class="card-title fw-bold text-center text-dark mt-3" id="retro">HTML/CSS/Bootstrap/js</h5>
           <p class="card-text text-center" id="retro">    CSC309       </p>
           
           <ul class="list-group">
               <li class="list-group-item border-0 bg-white text-center" id="retro"><a href="#" class="btn btn-dark">Learn more</a>
+                  </li>
+                  
+            </ul>
+        </div>
+        <div class="card-footer bg-info">
+          <small class="text-white" id="retro">Last updated Oct 2023</small>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100 bg-white">
+        <div class="center-image-container mt-4">
+          <img src="../img/django.png" alt="..." style="width: 50%;">
+          </div>
+        <div class="card-body">
+          <h5 class="card-title fw-bold text-center text-dark" id="retro">django</h5>
+          <p class="card-text text-center" id="retro">    CSC384        </p>
+          
+          <ul class="list-group">
+              <li class="list-group-item border-0 bg-white text-center" id="retro"><a href="#" class="btn btn-dark">Learn more</a>
+                  </li>
+                  
+            </ul>
+        </div>
+        <div class="card-footer bg-info">
+          <small class="text-white" id="retro">Last updated Oct 2023</small>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100 bg-white">
+        <div class="center-image-container mt-4">
+          <img src="../img/react.png" alt="..." style="width: 50%;">
+          </div>
+        <div class="card-body">
+          <h5 class="card-title fw-bold text-center text-dark" id="retro">react</h5>
+          <p class="card-text text-center" id="retro">    CSC384        </p>
+          
+          <ul class="list-group">
+              <li class="list-group-item border-0 bg-white text-center" id="retro"><a href="#" class="btn btn-dark">Learn more</a>
+                  </li>
+                  
+            </ul>
+        </div>
+        <div class="card-footer bg-info">
+          <small class="text-white" id="retro">Last updated Oct 2023</small>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100 bg-white">
+        <div class="center-image-container mt-4">
+          <img src="../img/R.png" alt="..." style="width: 50%;">
+          </div>
+        <div class="card-body">
+          <h5 class="card-title fw-bold text-center text-dark" id="retro">R</h5>
+          <p class="card-text text-center" id="retro">  STA237/238/302/303/304/314</p>
+          
+          <ul class="list-group">
+              <li class="list-group-item border-0 bg-white text-center" id="retro"><a href="petdetail.html" class="btn btn-dark">Learn more</a>
                   </li>
                   
             </ul>
@@ -238,7 +316,128 @@ have to do.</p>
         </div>
       </div>
     </div>
+    <div class="col">
+      <div class="card h-100 bg-white">
+        <div class="center-image-container mt-4">
+          <img src="../img/tux.png" alt="..." style="width: 50%;">
+          </div>
+        <div class="card-body">
+          <h5 class="card-title fw-bold text-center text-dark mt-4" id="retro">linux</h5>
+          <p class="card-text text-center" id="retro">    non uoft        </p>
+          
+          <ul class="list-group">
+              <li class="list-group-item border-0 bg-white text-center" id="retro"><a href="#" class="btn btn-dark">Learn more</a>
+                  </li>
+                  
+            </ul>
+        </div>
+        <div class="card-footer bg-info">
+          <small class="text-white" id="retro">Last updated Oct 2023</small>
+        </div>
+      </div>
+    </div>
 
+    <div class="col">
+      <div class="card h-100 bg-white">
+        <div class="center-image-container mt-4">
+          <img src="../img/unity.png" alt="..." style="width: 50%;">
+          </div>
+        <div class="card-body">
+          <h5 class="card-title fw-bold text-center text-dark" id="retro">unity</h5>
+          <p class="card-text text-center" id="retro">    non uoft        </p>
+          
+          <ul class="list-group">
+              <li class="list-group-item border-0 bg-white text-center" id="retro"><a href="#" class="btn btn-dark">Learn more</a>
+                  </li>
+                  
+            </ul>
+        </div>
+        <div class="card-footer bg-info">
+          <small class="text-white" id="retro">Last updated Oct 2023</small>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100 bg-white">
+        <div class="center-image-container mt-4">
+          <img src="../img/latex.png" alt="..." style="width: 50%;">
+          </div>
+        <div class="card-body">
+          <h5 class="card-title fw-bold text-center text-dark" id="retro">latex</h5>
+          <p class="card-text text-center" id="retro">    CSC165        </p>
+          
+          <ul class="list-group">
+              <li class="list-group-item border-0 bg-white text-center" id="retro"><a href="#" class="btn btn-dark">Learn more</a>
+                  </li>
+                  
+            </ul>
+        </div>
+        <div class="card-footer bg-info">
+          <small class="text-white" id="retro">Last updated Oct 2023</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100 bg-white">
+        <div class="center-image-container mt-4">
+          <img src="../img/libre.png" alt="..." style="width: 50%;">
+          </div>
+        <div class="card-body">
+          <h5 class="card-title fw-bold text-center text-dark" id="retro">LibreOffice</h5>
+          <p class="card-text text-center" id="retro">    non uoft        </p>
+          
+          <ul class="list-group">
+              <li class="list-group-item border-0 bg-white text-center" id="retro"><a href="#" class="btn btn-dark">Learn more</a>
+                  </li>
+                  
+            </ul>
+        </div>
+        <div class="card-footer bg-info">
+          <small class="text-white" id="retro">Last updated Oct 2023</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100 bg-white">
+        <div class="center-image-container mt-4">
+          <img src="../img/xournal.png" alt="..." style="width: 50%;">
+          </div>
+        <div class="card-body">
+          <h5 class="card-title fw-bold text-center text-dark" id="retro">xournal++</h5>
+          <p class="card-text text-center" id="retro">    non uoft        </p>
+          
+          <ul class="list-group">
+              <li class="list-group-item border-0 bg-white text-center" id="retro"><a href="#" class="btn btn-dark">Learn more</a>
+                  </li>
+                  
+            </ul>
+        </div>
+        <div class="card-footer bg-info">
+          <small class="text-white" id="retro">Last updated Oct 2023</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100 bg-white">
+        <div class="center-image-container mt-4">
+          <img src="../img/ps.png" alt="..." style="width: 50%;">
+          </div>
+        <div class="card-body">
+          <h5 class="card-title fw-bold text-center text-dark" id="retro">Photoshop/GIMP</h5>
+          <p class="card-text text-center" id="retro">    non uoft        </p>
+          
+          <ul class="list-group">
+              <li class="list-group-item border-0 bg-white text-center" id="retro"><a href="#" class="btn btn-dark">Learn more</a>
+                  </li>
+                  
+            </ul>
+        </div>
+        <div class="card-footer bg-info">
+          <small class="text-white" id="retro">Last updated Oct 2023</small>
+        </div>
+      </div>
+    </div>
     <div class="col">
       <div class="card h-100 bg-white">
         <div class="center-image-container mt-4">
@@ -380,7 +579,7 @@ have to do.</p>
               <p><i class="fas fa-phone pe-2"></i>+ 01 212 524 7000</p>
             </li>
             <li>
-              <p><i class="fas fa-envelope pe-2 mb-0"></i>ruilin.peng@mail.utoronto.ca</p>
+              <!-- <p><i class=" fa-envelope pe-2 mb-0 h6"></i>ruilin.peng@mail.utoronto.ca</p> -->
             </li>
           </ul>
         </div>
