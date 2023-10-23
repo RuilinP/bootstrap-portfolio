@@ -12800,12 +12800,23 @@ textarea.form-control-lg {
     padding-left: 25%;
   }
   #retroj1 {
-    font-family: "jp", sans-serif;
+    font-family: "jp", "cn";
     font-size: 13px;
     padding-top: 50%;
   }
   #retroj2 {
-    font-family: "jp", sans-serif;
+    font-family: "jp", "cn";
+    letter-spacing: -1px;
+    font-size: 13px;
+    padding-left: 25%;
+  }
+  #retroc1 {
+    font-family: "cn", sans-serif;
+    font-size: 13px;
+    padding-top: 50%;
+  }
+  #retroc2 {
+    font-family: "cn", sans-serif;
     letter-spacing: -1px;
     font-size: 13px;
     padding-left: 25%;
@@ -12819,13 +12830,22 @@ textarea.form-control-lg {
   font-family: "jp";
   src: url("../NineteenNinetyThree-L1Ay.ttf") format("truetype");
 }
+@font-face {
+  font-family: "cn";
+  src: url("../Unifontexmono-AL3RA.ttf") format("truetype");
+}
 #retro {
   font-family: "slkcrb", sans-serif;
   letter-spacing: -1px;
 }
 
 #retroj {
-  font-family: "jp", sans-serif;
+  font-family: "jp", "cn";
+  letter-spacing: -1px;
+}
+
+#retroc {
+  font-family: "cn", sans-serif;
   letter-spacing: -1px;
 }
 
@@ -12841,12 +12861,22 @@ textarea.form-control-lg {
     padding-left: 160px;
   }
   #retroj1 {
-    font-family: "jp", sans-serif;
+    font-family: "jp", "cn";
     letter-spacing: -1px;
     padding-top: 15%; /* For screens > 810px */
   }
   #retroj2 {
-    font-family: "jp", sans-serif;
+    font-family: "jp", "cn";
+    letter-spacing: -1px;
+    padding-left: 100px;
+  }
+  #retroc1 {
+    font-family: "cn", sans-serif;
+    letter-spacing: -1px;
+    padding-top: 15%; /* For screens > 810px */
+  }
+  #retroc2 {
+    font-family: "cn", sans-serif;
     letter-spacing: -1px;
     padding-left: 100px;
   }

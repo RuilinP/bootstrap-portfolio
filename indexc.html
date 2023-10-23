@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/main.css">
+    
+    <!-- <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    
+    <title>Ruilin's portofolio</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body class = "bg-black">
+  <!--navbar-->
+  <header>
+  <nav class="navbar navbar-expand-sm navbar-light bg-dark">
+    <!-- Navbar content -->
+    <div class="container-fluid">
+    <a href="#" class="navbar-brand mb-0 h1">
+      <h1 class="text-white fw-bold ms-4" id="retro">Ruilin<span class="text-primary fw-bold ms-0 h1" id="retro">P</span></h1>
+    </a>
+    <button 
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        class="navbar-toggler bg-primary"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+		
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto">
+          <!-- <li class="nav-item">
+            <a href="#" class="nav-link text-white fw-bold ms-4" id="retro" >Home</a>
+          </li> -->
+          <li class="nav-item">
+            <a href="#about" class="nav-link text-white fw-bold ms-4" id="retroc">關於我</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link text-white fw-bold ms-4" id="retroc">技能</a>
+          </li>
+		  <li class="nav-item">
+            <a href="https://www.ruilinp.com/contact/" class="nav-link text-white fw-bold ms-4" id="retroc">聯絡方式</a>
+          </li>
+          <li class="nav-item">
+            <a href="https://www.ruilinp.com/" class="nav-link text-white fw-bold ms-4" id="retroc">博客</a>
+          </li>
+          </ul>
+          
+          <a class="btn btn-primary text-white fw-bold btn-sm ms-3 me-1" href="#" role="button">69% 🎧 27% 🎙</a>
+          <a class="btn btn-primary text-white fw-bold btn-sm ms-1 me-1" href="#" role="button">UOFT(88%)📶</a>
+          <a class="btn btn-primary text-white fw-bold btn-sm ms-1 me-1" href="#" role="button">35% 💻</a>
+          <a class="btn btn-primary text-white fw-bold btn-sm ms-1 me-1" href="#" role="button">44℃ 🌡</a>
+          <a class="btn btn-primary text-white fw-bold btn-sm ms-1 me-1" href="#" role="button">100% 🔋</a>
+            
+            <div class="dropdown">
+              <button type="button" id="orderbreed" class="btn btn-primary dropdown-toggle text-white fw-bold btn-sm"
+                  data-bs-toggle="dropdown" aria-expanded="false" data-default-text="Any">
+                  ⌨ 
+              </button>
+              <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="indexj1.html"  id="retroj" >JP/日本語</a></li>
+                  <li><a class="dropdown-item" href="index.html" id="retroj" >EN/英語</a></li>
+                  
+                  <li>
+                      <hr class="dropdown-divider">
+                  </li>
+                  
+              </ul>
+          </div>
+          <a class="btn btn-primary text-white fw-bold btn-sm ms-1 me-1" href="#" role="button">Ruilinルイリン彭瑞麟</a>
+            
+            
+            
+          
+            
+          
+      </div>
+    </div>
+  </nav>
+  </header>
+  <div class=" ms-0 me-0" style="height: 100vh;
+  width: 100%;
+  background-image: url(archchan.png);
+  background-size: cover;
+  background-position: center;">
+<!-- <img class="bg-img" style="width: 100%;" src="archchan.png" alt="..."> -->
+<div class="inner-container ms-5" style="width: 50%; height: 30%; padding-top: 400px;">
+  <div style="height: 20vh;
+  width: 65%;
+  background-image: url(img/terminal1.png);
+  background-size: cover;
+  border: 2px solid #1793d1;">
+	<h4 class="text-white ps-3 fw-bold" id="retroc1">您好,在下 </h4>
+  
+	<h2 class="text-primary fw-bold cursor" id="retroc2">彭瑞麟<i></i></h2>
+	
+  </div>
+	</div>
+	
+  </div>
+<div class="container mt-5" style="height: 150vh;
+display: flex;
+justify-content: center;
+
+background-image: url(img/monitor.png);
+background-size: cover;
+background-position: center;">>
+  <pre><output id="arch" style="margin-top: 40%;">[ruilin@archlinux blog]$ neofetch 
+                   -`                    ruilin@archlinux 
+                  .o+`                   ---------------- 
+                 `ooo/                   OS: Arch Linux x86_64 
+                `+oooo:                  Host: 20FMS0LG06 ThinkPad T460 
+               `+oooooo:                 Kernel: 6.2.8-arch1-1 
+               -+oooooo+:                <span id="uptime-line">Uptime: {{$days}} days, {{$hour1}} hours, {{$min1}} mins</span>
+             `/:-:++oooo+:               Packages: 1083 (pacman) 
+            `/++++/+++++++:              Shell: bash 5.1.16 
+           `/++++++++++++++:             Resolution: 1920x1080 
+          `/+++ooooooooooooo/`           WM: sway 
+         ./ooosssso++osssssso+`          Theme: Adwaita [GTK2] 
+        .oossssso-````/ossssss+`         Icons: Adwaita [GTK2] 
+       -osssssso.      :ssssssso.        Terminal: xfce4-terminal 
+      :osssssss/        osssso+++.       Terminal Font: Monospace 12 
+     /ossssssss/        +ssssooo/-       CPU: Intel i5-6300U (4) @ 3.000GHz 
+   `/ossssso+/:-        -:/+osssso+-     GPU: Intel Skylake GT2 [HD Graphics 520] 
+  `+sso+:-`                 `.-/+oso:    Memory: 5866MiB / 7801MiB 
+ `++:.                           `-/+/
+ .`                                 `/  
+    
+ 
+</output></pre>
+</div>
+
+<div class="container mt-5 mb-5 bg-black" id="about">
+  <div class="row">
+    <div class="col bg-black justify-content-center">
+      <img src="../ruilin.png" alt="" style="width: 100%;"/>
+        </div>
+    <div class="col">
+  <h3 class="text-success fw-bold ms-4 " id="retroc" >關於我</h3>
+  
+  <p class="text-white fw-bold ms-4 mt-4" id="retroc" >我是多倫多大學大四學生，主修統計，輔修計算機科學和數學，用<span class="text-primary fw-bold " id="retro"> arch linux</span>　每天玩明日方舟，碧藍檔案
+和FGO。目前精神狀態就是，嗯，捨棄所有情緒，沒心沒肺，只爲達成目標！</p><a href="https://www.ruilinp.com/about/" class="btn btn-primary ms-4 text-white" id="retro">Learn more</a>
+    </div>
+    </div>
+</div>
+
+<div class="ms-5 me-5 mt-5 mb-5 bg-black align-items-center" id="skills">
+  <h3 class="text-primary fw-bold ms-4" id="retroc"  >我的技能</h3>
+  <div class="row row-cols-1 row-cols-md-4 g-4 mt-4">
+    <div class="col">
+      <div class="card h-100 bg-white">
+        <div class="center-image-container mt-4">
+        <img src="../img/python.png" alt="..." style="width: 50%;">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title fw-bold text-center text-dark" id="retro">Python</h5>
+          <p class="card-text text-center" id="retro">  CSC108/148/263/384</p>
+          
+          <ul class="list-group">
+              <li class="list-group-item border-0 bg-white text-center" id="retro"><a href="https://www.ruilinp.com/posts/python" class="btn btn-dark">Learn more</a>
+                  </li>
+                  
+            </ul>
+        </div>
+        <div class="card-footer bg-info">
+          <small class="text-white" id="retro">Last updated Oct 2023</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100 bg-white">
+        <div class="center-image-container mt-4">
+          <img src="../img/c.png" alt="..." style="width: 50%;">
+          </div>
+        <div class="card-body">
+          <h5 class="card-title fw-bold text-center text-dark" id="retro">C</h5>
+          <p class="card-text text-center" id="retro">    CSC209       </p>
+          
+          <ul class="list-group">
+              <li class="list-group-item border-0 bg-white text-center" id="retro"><a href="https://www.ruilinp.com/posts/c" class="btn btn-dark">Learn more</a>
+                  </li>
+                  
+            </ul>
+        </div>
+        <div class="card-footer bg-info">
+          <small class="text-white" id="retro">Last updated Oct 2023</small>
+        </div>
+      </div>
+    </div>
+    
+  
+    <div class="col">
+      <div class="card h-100 bg-white">
+        <div class="center-image-container mt-4">
+          <img src="../img/java.png" alt="..." style="width: 50%;">
+          </div>
+        <div class="card-body">
+          <h5 class="card-title fw-bold text-center text-dark" id="retro">Java</h5>
+          <p class="card-text text-center" id="retro">    CSC207        </p>
+          
+          <ul class="list-group">
+              <li class="list-group-item border-0 bg-white text-center" id="retro"><a href="https://www.ruilinp.com/posts/java" class="btn btn-dark">Learn more</a>
+                  </li>
+                  
+            </ul>
+        </div>
+        <div class="card-footer bg-info">
+          <small class="text-white" id="retro">Last updated Oct 2023</small>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100 bg-white">
+        <div class="center-image-container mt-4">
+          <img src="../img/Cs.png" alt="..." style="width: 50%;">
+          </div>
+        <div class="card-body">
+          <h5 class="card-title fw-bold text-center text-dark" id="retro">C#</h5>
+          <p class="card-text text-center" id="retro">    non uoft        </p>
+          
+          <ul class="list-group">
+              <li class="list-group-item border-0 bg-white text-center" id="retro"><a href="https://www.ruilinp.com/posts/cs" class="btn btn-dark">Learn more</a>
+                  </li>
+                  
+            </ul>
+        </div>
+        <div class="card-footer bg-info">
+          <small class="text-white" id="retro">Last updated Oct 2023</small>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100 bg-white">
+        <div class="center-image-container mt-4">
+          <img src="img/html.jpg" alt="..." style="width: 50%;">
+          </div>
+        <div class="card-body">
+          <h5 class="card-title fw-bold text-center text-dark mt-3" id="retro">HTML/CSS/Bootstrap/js</h5>
+          <p class="card-text text-center" id="retro">    CSC309       </p>
+          
+          <ul class="list-group">
+              <li class="list-group-item border-0 bg-white text-center" id="retro"><a href="https://www.ruilinp.com/posts/htmlcss" class="btn btn-dark">Learn more</a>
+                  </li>
+                  
+            </ul>
+        </div>
+        <div class="card-footer bg-info">
+          <small class="text-white" id="retro">Last updated Oct 2023</small>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100 bg-white">
+        <div class="center-image-container mt-4">
+          <img src="../img/django.png" alt="..." style="width: 50%;">
+          </div>
+        <div class="card-body">
+          <h5 class="card-title fw-bold text-center text-dark" id="retro">django</h5>
+          <p class="card-text text-center" id="retro">    CSC384        </p>
+          
+          <ul class="list-group">
+              <li class="list-group-item border-0 bg-white text-center" id="retro"><a href="https://www.ruilinp.com/posts/django" class="btn btn-dark">Learn more</a>
+                  </li>
+                  
+            </ul>
+        </div>
+        <div class="card-footer bg-info">
+          <small class="text-white" id="retro">Last updated Oct 2023</small>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100 bg-white">
+        <div class="center-image-container mt-4">
+          <img src="../img/react.png" alt="..." style="width: 50%;">
+          </div>
+        <div class="card-body">
+          <h5 class="card-title fw-bold text-center text-dark" id="retro">react</h5>
+          <p class="card-text text-center" id="retro">    CSC384        </p>
+          
+          <ul class="list-group">
+              <li class="list-group-item border-0 bg-white text-center" id="retro"><a href="https://www.ruilinp.com/posts/react" class="btn btn-dark">Learn more</a>
+                  </li>
+                  
+            </ul>
+        </div>
+        <div class="card-footer bg-info">
+          <small class="text-white" id="retro">Last updated Oct 2023</small>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100 bg-white">
+        <div class="center-image-container mt-4">
+          <img src="../img/R.png" alt="..." style="width: 50%;">
+          </div>
+        <div class="card-body">
+          <h5 class="card-title fw-bold text-center text-dark" id="retro">R</h5>
+          <p class="card-text text-center" id="retro">  STA237/238/302/303/304/314</p>
+          
+          <ul class="list-group">
+              <li class="list-group-item border-0 bg-white text-center" id="retro"><a href="https://www.ruilinp.com/posts/r" class="btn btn-dark">Learn more</a>
+                  </li>
+                  
+            </ul>
+        </div>
+        <div class="card-footer bg-info">
+          <small class="text-white" id="retro">Last updated Oct 2023</small>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100 bg-white">
+        <div class="center-image-container mt-4">
+          <img src="../img/SAS.png" alt="..." style="width: 50%;">
+          </div>
+        <div class="card-body">
+          <h5 class="card-title fw-bold text-center text-dark" id="retro">SAS</h5>
+          <p class="card-text text-center" id="retro">    Non uoft       </p>
+          
+          <ul class="list-group">
+              <li class="list-group-item border-0 bg-white text-center" id="retro"><a href="https://www.ruilinp.com/certificates/" class="btn btn-dark">Learn more</a>
+                  </li>
+                  
+            </ul>
+        </div>
+        <div class="card-footer bg-info">
+          <small class="text-white" id="retro">Last updated Oct 2023</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100 bg-white">
+        <div class="center-image-container mt-4">
+          <img src="../img/tux.png" alt="..." style="width: 50%;">
+          </div>
+        <div class="card-body">
+          <h5 class="card-title fw-bold text-center text-dark mt-4" id="retro">linux</h5>
+          <p class="card-text text-center" id="retro">    non uoft        </p>
+          
+          <ul class="list-group">
+              <li class="list-group-item border-0 bg-white text-center" id="retro"><a href="https://www.ruilinp.com/about/" class="btn btn-dark">Learn more</a>
+                  </li>
+                  
+            </ul>
+        </div>
+        <div class="card-footer bg-info">
+          <small class="text-white" id="retro">Last updated Oct 2023</small>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100 bg-white">
+        <div class="center-image-container mt-4">
+          <img src="../img/unity.png" alt="..." style="width: 50%;">
+          </div>
+        <div class="card-body">
+          <h5 class="card-title fw-bold text-center text-dark" id="retro">unity</h5>
+          <p class="card-text text-center" id="retro">    non uoft        </p>
+          
+          <ul class="list-group">
+              <li class="list-group-item border-0 bg-white text-center" id="retro"><a href="https://www.ruilinp.com/posts/unity" class="btn btn-dark">Learn more</a>
+                  </li>
+                  
+            </ul>
+        </div>
+        <div class="card-footer bg-info">
+          <small class="text-white" id="retro">Last updated Oct 2023</small>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100 bg-white">
+        <div class="center-image-container mt-4">
+          <img src="../img/latex.png" alt="..." style="width: 50%;">
+          </div>
+        <div class="card-body">
+          <h5 class="card-title fw-bold text-center text-dark" id="retro">latex</h5>
+          <p class="card-text text-center" id="retro">    CSC165        </p>
+          
+          <ul class="list-group">
+              <li class="list-group-item border-0 bg-white text-center" id="retro"><a href="https://www.ruilinp.com/posts/latex" class="btn btn-dark">Learn more</a>
+                  </li>
+                  
+            </ul>
+        </div>
+        <div class="card-footer bg-info">
+          <small class="text-white" id="retro">Last updated Oct 2023</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100 bg-white">
+        <div class="center-image-container mt-4">
+          <img src="../img/libre.png" alt="..." style="width: 50%;">
+          </div>
+        <div class="card-body">
+          <h5 class="card-title fw-bold text-center text-dark" id="retro">LibreOffice</h5>
+          <p class="card-text text-center" id="retro">    non uoft        </p>
+          
+          <ul class="list-group">
+              <li class="list-group-item border-0 bg-white text-center" id="retro"><a href="https://www.ruilinp.com/posts/libre" class="btn btn-dark">Learn more</a>
+                  </li>
+                  
+            </ul>
+        </div>
+        <div class="card-footer bg-info">
+          <small class="text-white" id="retro">Last updated Oct 2023</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100 bg-white">
+        <div class="center-image-container mt-4">
+          <img src="../img/xournal.png" alt="..." style="width: 50%;">
+          </div>
+        <div class="card-body">
+          <h5 class="card-title fw-bold text-center text-dark" id="retro">xournal++</h5>
+          <p class="card-text text-center" id="retro">    non uoft        </p>
+          
+          <ul class="list-group">
+              <li class="list-group-item border-0 bg-white text-center" id="retro"><a href="https://www.ruilinp.com/posts/xournal" class="btn btn-dark">Learn more</a>
+                  </li>
+                  
+            </ul>
+        </div>
+        <div class="card-footer bg-info">
+          <small class="text-white" id="retro">Last updated Oct 2023</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100 bg-white">
+        <div class="center-image-container mt-4">
+          <img src="../img/ps.png" alt="..." style="width: 50%;">
+          </div>
+        <div class="card-body">
+          <h5 class="card-title fw-bold text-center text-dark" id="retro">Photoshop/GIMP</h5>
+          <p class="card-text text-center" id="retro">    non uoft        </p>
+          
+          <ul class="list-group">
+              <li class="list-group-item border-0 bg-white text-center" id="retro"><a href="https://www.ruilinp.com/posts/ps" class="btn btn-dark">Learn more</a>
+                  </li>
+                  
+            </ul>
+        </div>
+        <div class="card-footer bg-info">
+          <small class="text-white" id="retro">Last updated Oct 2023</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100 bg-white">
+        <div class="center-image-container mt-4">
+          <img src="../img/jlpt.png" alt="..." style="width: 50%;">
+          </div>
+        <div class="card-body">
+          <h5 class="card-title fw-bold text-center text-dark" id="retro">Japanese</h5>
+          <p class="card-text text-center" id="retro">    EAS120/220/320       </p>
+          
+          <ul class="list-group">
+              <li class="list-group-item border-0 bg-white text-center" id="retro"><a href="https://www.ruilinp.com/certificates/" class="btn btn-dark">Learn more</a>
+                  </li>
+                  
+            </ul>
+        </div>
+        <div class="card-footer bg-info">
+          <small class="text-white" id="retro">Last updated Oct 2023</small>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+  const targetDate = new Date('2022-06-23T18:07:00Z');
+  const elapsedTimeElement = document.getElementById('elapsed-time');
+  const uptimeLine = document.getElementById('uptime-line');
+
+  function updateElapsedTime() {
+    const currentDate = new Date();
+    const timeDifference = currentDate - targetDate;
+    const seconds = Math.floor(timeDifference / 1000) % 60;
+    const minutes = Math.floor(timeDifference / (1000 * 60)) % 60;
+    const hours = Math.floor(timeDifference / (1000 * 60 * 60)) % 24;
+    const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+
+    // Create a string with the elapsed time
+    const elapsedTimeString = `${days} days, ${hours} hours, ${minutes} minutes, ${seconds} seconds`;
+
+    // Update the content of the uptime line
+    uptimeLine.textContent = `Uptime: ${elapsedTimeString}`;
+  }
+
+  // Update the elapsed time initially
+  updateElapsedTime();
+
+  // Update the elapsed time every second (1000 milliseconds)
+  setInterval(updateElapsedTime, 1000);
+});
+
+  </script>
+
+<div id="waifu">
+  <div id="waifu-message"></div>
+  <div class="waifu-tool">
+    <span class="icon-next"></span>
+    <span class="icon-home"></span>
+    <span class="icon-message"></span>
+    <span class="icon-camera"></span>
+    <span class="icon-volumeup"></span>
+    <span class="icon-volumedown"></span>
+    <span class="icon-about"></span>
+    <span class="icon-cross"></span>
+  </div>
+  <canvas id="live2d2"></canvas>
+  <canvas id="live2d4"></canvas>
+</div>
+<script src="dist/live2d_bundle.js"></script>
+<script async type="module" src="waifu-tips.js"></script>
+
+  <footer class="bg-dark text-center text-lg-start text-white"  id="retro">
+    
+    <div class="container p-4">
+      
+      <div class="row my-4">
+        
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+          <div class="rounded-circle bg-black shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto" style="width: 150px; height: 150px;">
+            <img src="../ruilin.png" height="100" alt=""
+                 loading="lazy" />
+          </div>
+
+          <p class="text-center">Fool</p>
+
+          <ul class="list-unstyled d-flex flex-row justify-content-center">
+            <li>
+              <a class="text-white px-2" href="#!">
+                <i class="fab fa-facebook-square"></i>
+              </a>
+            </li>
+            <li>
+              <a class="text-white px-2" href="#!">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a class="text-white ps-2" href="#!">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </li>
+          </ul>
+
+        </div>
+        
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-4">Links</h5>
+
+          <ul class="list-unstyled">
+            <li class="mb-2">
+              <a href="https://www.ruilinp.com" class="text-white"><i class="fas fa-paw pe-3"></i>blog</a>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-4">webs I often visit</h5>
+
+          <ul class="list-unstyled">
+            <li class="mb-2">
+              <a href="https://nyaa.si" class="text-white"><i class="fas fa-paw pe-3"></i> nyaa.si</a>
+            </li>
+            
+          </ul>
+        </div>
+        
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-4">Contact</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <p><i class="fas fa-map-marker-alt pe-2"></i>Windows on the World
+                One World Trade Center, 107th Floor
+                New York, NY 10048</p>
+            </li>
+            <li>
+              <p><i class="fas fa-phone pe-2"></i>+ 01 212 524 7000</p>
+            </li>
+            <li>
+              <!-- <p><i class=" fa-envelope pe-2 mb-0 h6"></i>ruilin.peng@mail.utoronto.ca</p> -->
+            </li>
+          </ul>
+        </div>
+        
+      </div>
+      
+    </div>
+
+
+	
+    
+    <div class="text-center p-1 justify-content-center">
+		<p class="text-white fw-bold mt-2 mb-2">© 2023 Copyright: Ruilin Peng</p>
+	  </div>
+    
+  </footer>
+
+
+</body>
+</html>
