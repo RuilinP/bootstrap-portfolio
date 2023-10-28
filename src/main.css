@@ -12942,4 +12942,11 @@ textarea.form-control-lg {
   background-image: url("/img/btn_menu_bg.png"); /* Replace 'path/to/your-image.png' with the actual path to your image */
   background-size: 100% 100%;
   border: none; /* Remove any border if present */
+}
+
+.back-to-top-button {
+  position: fixed;
+  right: 0.42rem;
+  bottom: 1rem;
+  z-index: 1030;
 }/*# sourceMappingURL=main.css.map */

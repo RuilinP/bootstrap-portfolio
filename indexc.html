@@ -15,6 +15,9 @@
 <body class = "bg-black">
   <!--navbar-->
   <header>
+    <div class="back-to-top-button">
+			<button type="button" class="btn custom-toggler-button" onclick="scrollToTop()"> &#x2191; </button>
+		</div>
   <nav class="navbar navbar-expand-sm navbar-light bg-dark">
     <!-- Navbar content -->
     <div class="container-fluid">
@@ -692,7 +695,11 @@ background-position: center; border: 2px solid #333;"></div>
 	  </div>
     
   </footer>
-
+  <script>
+		function scrollToTop() {
+			window.scrollTo({ top: 0, behavior: 'smooth' });
+		}
+	</script>
 
 </body>
 </html>
