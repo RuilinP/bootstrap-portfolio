@@ -12738,10 +12738,10 @@ textarea.form-control-lg {
 }
 
 .video-container {
-  height: 75%;
+  height: 65%;
   width: 63%;
   /* Set the desired height here */
-  padding-top: 9%;
+  padding-top: 18%;
   padding-left: auto;
   padding-right: auto;
   justify-content: center;
