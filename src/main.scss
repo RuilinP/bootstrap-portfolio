@@ -28,7 +28,14 @@ $info: #050593;
   }
   
   .video-container {
-    height: 200px; /* Set the desired height here */
+    
+    height: 75%;
+    width: 63%;
+     /* Set the desired height here */
+    padding-top: 9%;
+    padding-left: auto;
+    padding-right: auto;
+    justify-content: center;
     overflow: hidden;
   }
   
