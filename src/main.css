@@ -12936,4 +12936,10 @@ textarea.form-control-lg {
   height: 100%;
   background-color: #00cc00;
   transition: width 0.5s;
+}
+
+.custom-toggler-button {
+  background-image: url("/img/btn_menu_bg.png"); /* Replace 'path/to/your-image.png' with the actual path to your image */
+  background-size: 100% 100%;
+  border: none; /* Remove any border if present */
 }/*# sourceMappingURL=main.css.map */
