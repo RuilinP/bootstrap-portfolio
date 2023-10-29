@@ -12738,11 +12738,11 @@ textarea.form-control-lg {
 }
 
 .video-container {
-  height: 75%;
+  height: 74%;
   width: 63%;
   /* Set the desired height here */
-  padding-top: 13%;
-  padding-left: auto;
+  padding-top: 14%;
+  padding-left: 1%;
   padding-right: auto;
   justify-content: center;
   overflow: hidden;
@@ -12855,12 +12855,12 @@ textarea.form-control-lg {
   letter-spacing: -1px;
 }
 
-@media screen and (min-width: 1700px) {
+@media screen and (min-width: 1900px) {
   .video-container {
     height: 80%;
     width: 63%;
     /* Set the desired height here */
-    padding-top: 12%;
+    padding-top: 15%;
     padding-left: auto;
     padding-right: auto;
     justify-content: center;
