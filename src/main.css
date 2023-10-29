@@ -12789,6 +12789,15 @@ textarea.form-control-lg {
 }
 
 @media screen and (max-width: 810px) {
+  .video-container {
+    height: 21%;
+    width: 63%;
+    /* Set the desired height here */
+    margin-top: 98%;
+    padding-left: auto;
+    padding-right: auto;
+    justify-content: center;
+  }
   #arch {
     color: #0CE5F8;
     font-size: 6px;
@@ -12865,6 +12874,39 @@ textarea.form-control-lg {
     padding-right: auto;
     justify-content: center;
     overflow: hidden;
+  }
+  #retro1 {
+    font-family: "slkcrb", sans-serif;
+    font-size: 20px;
+    padding-top: 50%;
+  }
+  #retro2 {
+    font-family: "slkcrb", sans-serif;
+    letter-spacing: -1px;
+    font-size: 20px;
+    padding-left: 25%;
+  }
+  #retroj1 {
+    font-family: "jp", "cn";
+    font-size: 20px;
+    padding-top: 50%;
+  }
+  #retroj2 {
+    font-family: "jp", "cn";
+    letter-spacing: -1px;
+    font-size: 20px;
+    padding-left: 25%;
+  }
+  #retroc1 {
+    font-family: "cn", sans-serif;
+    font-size: 20px;
+    padding-top: 50%;
+  }
+  #retroc2 {
+    font-family: "cn", sans-serif;
+    letter-spacing: -1px;
+    font-size: 20px;
+    padding-left: 25%;
   }
 }
 @media screen and (min-width: 811px) {
