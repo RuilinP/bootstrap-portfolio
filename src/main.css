@@ -12857,7 +12857,7 @@ textarea.form-control-lg {
 
 @media screen and (min-width: 1900px) {
   .video-container {
-    height: 95%;
+    height: 85%;
     width: 63%;
     /* Set the desired height here */
     padding-top: 15%;
