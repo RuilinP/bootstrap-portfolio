@@ -12855,7 +12855,7 @@ textarea.form-control-lg {
   letter-spacing: -1px;
 }
 
-@media screen and (min-wdith: 1800px) {
+@media screen and (min-wdith: 1700px) {
   .video-container {
     height: 80%;
     width: 63%;
