@@ -135,12 +135,14 @@ $info: #050593;
 
   @font-face {
     font-family:"jp";
-    src: url("../NineteenNinetyThree-L1Ay.ttf") format("truetype");
+    // src: url("../NineteenNinetyThree-L1Ay.ttf") format("truetype");
+    src: url("../pc-9800.ttf") format("truetype");
   }
 
   @font-face {
     font-family:"cn";
-    src: url("../Unifontexmono-AL3RA.ttf") format("truetype");
+    // src: url("../Unifontexmono-AL3RA.ttf") format("truetype");
+    src: url("../pc-9800.ttf") format("truetype");
   }
 
   #retro{
