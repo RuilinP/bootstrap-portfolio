@@ -12849,6 +12849,10 @@ textarea.form-control-lg {
   font-family: "cn";
   src: url("../pc-9800.ttf") format("truetype");
 }
+@font-face {
+  font-family: "kr";
+  src: url("../ps2px.ttf") format("truetype");
+}
 #retro {
   font-family: "slkcrb", sans-serif;
   letter-spacing: -1px;
@@ -12861,6 +12865,11 @@ textarea.form-control-lg {
 
 #retroc {
   font-family: "cn", sans-serif;
+  letter-spacing: -1px;
+}
+
+#retrok {
+  font-family: "kr", sans-serif;
   letter-spacing: -1px;
 }
 

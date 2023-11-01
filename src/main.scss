@@ -144,6 +144,11 @@ $info: #050593;
     // src: url("../Unifontexmono-AL3RA.ttf") format("truetype");
     src: url("../pc-9800.ttf") format("truetype");
   }
+  @font-face {
+    font-family:"kr";
+    // src: url("../Unifontexmono-AL3RA.ttf") format("truetype");
+    src: url("../ps2px.ttf") format("truetype");
+  }
 
   #retro{
     font-family: "slkcrb", sans-serif;
@@ -156,6 +161,10 @@ $info: #050593;
   }
   #retroc{
     font-family: "cn", sans-serif;
+    letter-spacing: -1px;
+  }
+  #retrok{
+    font-family: "kr", sans-serif;
     letter-spacing: -1px;
   }
   @media screen and (min-width: 1900px){
