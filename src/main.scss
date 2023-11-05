@@ -213,6 +213,17 @@ $info: #050593;
       font-size: 20px;
       padding-left: 25%;
     }
+    #retrok1{
+      font-family: "kr", sans-serif;
+      font-size: 20px;
+      padding-top: 50%;
+    }
+    #retrok2{
+      font-family: "kr", sans-serif;
+      letter-spacing: -1px;
+      font-size: 20px;
+      padding-left: 25%;
+    }
   }
   @media screen and (min-width: 811px) {
     #retro1 {
@@ -247,6 +258,18 @@ $info: #050593;
     }
     #retroc2{
       font-family: "cn", sans-serif;
+      letter-spacing: -1px;
+      font-size: 20px;
+      padding-left: 100px;
+    }
+    #retrok1 {
+      font-family: "kr", sans-serif;
+      letter-spacing: -1px;
+      font-size: 20px;
+      padding-top: 15%; /* For screens > 810px */
+    }
+    #retrok2{
+      font-family: "kr", sans-serif;
       letter-spacing: -1px;
       font-size: 20px;
       padding-left: 100px;
