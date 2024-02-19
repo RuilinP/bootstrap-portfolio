@@ -74,13 +74,13 @@ $info: #050593;
     font-size: 14px;
   }
   
-  @media screen and (max-width: 810px){
+  @media screen and (max-width: 1000px){
     .video-container {
     
-      height: 21%;
+      height: 19%;
       width: 63%;
        /* Set the desired height here */
-      margin-top: 94%;
+      margin-top: 96%;
       padding-left: auto;
       padding-right: auto;
       justify-content: center;
@@ -225,7 +225,7 @@ $info: #050593;
       padding-left: 25%;
     }
   }
-  @media screen and (min-width: 811px) {
+  @media screen and (min-width: 1101px) {
     #retro1 {
       font-family: "slkcrb", sans-serif;
       letter-spacing: -1px;
@@ -346,3 +346,4 @@ $info: #050593;
   z-index: 1030;
   // opacity: 0.7;
 }
+
